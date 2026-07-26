@@ -1,3 +1,7 @@
+# Here, the result is one string.
+#  for example: Write a short essay about Artificial Intelligence in professional style.
+
+
 from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 from dotenv import load_dotenv
 from pathlib import Path

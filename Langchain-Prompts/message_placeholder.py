@@ -1,3 +1,6 @@
+# In LangChain, a message placeholder (MessagesPlaceholder) is a tool used in chat prompt templates to dynamically insert a whole list of messages—such as past conversation history—at a specific spot during runtime
+
+
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
 chat_template = ChatPromptTemplate([
@@ -9,7 +12,7 @@ chat_template = ChatPromptTemplate([
 chat_history = []
 #load chat history
 
-with open (chat_history.txt) as f:
+with open ('chat_history.txt') as f:
     chat_history.extend(f.readlines())
     
 print(chat_history)
